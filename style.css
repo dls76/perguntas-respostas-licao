@@ -2,11 +2,15 @@
 
 body {font-family: 'Lato', sans-serif;}
 
-header {text-align: center; background: linear-gradient(90deg, #0C9B8E, #009688); color: #fff; padding: 1rem; box-shadow: 0px 10px 13px -7px #000000; position: fixed; top: 0; width: 100%;}
+header {text-align: center; background: linear-gradient(90deg, #0C9B8E, #009688); color: #fff; padding: .6rem; box-shadow: 0px 10px 13px -7px #000000; position: fixed; top: 0; width: 100%;}
 
-main {max-width: 700px; margin: 5rem auto; padding: 1.5rem; color: #878787;}
+main {max-width: 700px; margin: 5rem auto; padding: 1.5rem; color:#777;}
 
-main div {font-size: 2.7rem; text-align: center; letter-spacing: .05rem; margin: 3rem 0 1.5rem 0; font-weight: 370;}
+main div {letter-spacing: .1rem; margin: 3rem 0 1.5rem 0;}
+
+main div#imgcapa {text-align: center;}
+
+main div#imgcapa img {width: 90%; box-shadow: 2px 2px 3px 0px gray;}
 
 details {font-weight: 400; margin-bottom: .5rem;}
 
